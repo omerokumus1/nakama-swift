@@ -26,11 +26,11 @@ let package = Package(
     .library(name: "Nakama", targets: ["Nakama"])
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-nio.git", .exact("2.25.0") ),
-    .package(url: "https://github.com/apple/swift-nio-ssl.git", .exact("2.10.1") ),
+    .package(url: "https://github.com/apple/swift-nio.git", .exact("2.40.0") ),
+    .package(url: "https://github.com/apple/swift-nio-ssl.git", .exact("2.14.0") ),
     .package(url: "https://github.com/apple/swift-nio-transport-services.git", .exact("1.9.1") ),
     .package(name: "SwiftProtobuf", url: "https://github.com/apple/swift-protobuf.git", .exact( "1.9.0") ),
-    .package(url: "https://github.com/grpc/grpc-swift.git", .exact("1.0.0-alpha.22") ),
+    .package(url: "https://github.com/grpc/grpc-swift.git", .exact("1.0.0-alpha.23") ),
     .package(url: "https://github.com/apple/swift-atomics.git", .exact("0.0.2") ),
   ],
   targets: [
